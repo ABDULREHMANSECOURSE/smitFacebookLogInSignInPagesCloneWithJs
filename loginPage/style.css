@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    background-color: #f2f4f7;
+    place-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 100%;
+    gap: 70px;
+    padding: 92px 0 132px 0;
+    width: 980px;
+
+}
+
+.fb-logo-text{
+    padding-top: 112px;
+}
+
+.facebookNameLogo{
+    padding-bottom: 16px;
+    height: 120px;
+    margin: -28px;
+}
+
+h2{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.login-card{
+    width: 650px;
+    margin-top: 32px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 15px;
+    color: #1c1e21;
+    background-color: #ffffff;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0000001a,0 8px 16px #0000001a;
+}
+
+.login-card input{
+    width: 100%;
+    line-height: 16px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #1d2129;
+    border: 1px solid #dddfe2;
+}
+
+.login-button{
+    background-color: #0866ff;
+    color: white;
+    padding: 0 16px;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 48px;
+    border: none;
+    border-radius: 6px;
+}
+
+.line{
+    margin: 20px 16px;
+    height: 1px;
+    width: 100%;
+    background-color: #DADDE1;
+}
+
+.cna-button{
+    background-color: #42b72a;
+    color: white;
+    padding: 0 16px;
+    line-height: 48px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fp{
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
