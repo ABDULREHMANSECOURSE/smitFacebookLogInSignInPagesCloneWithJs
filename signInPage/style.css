@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,Arial,sans-serif;
+    color: #1c1e21;
+}
+
+main{
+    background-color: #f2f4f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.facebookNameLogo{
+    height: 100px;
+}
+
+.form-main{
+    box-shadow: 0 2px 4px #0000001a,0 8px 16px #0000001a;
+    background-color: white;
+    margin: 0 auto 100%;
+    text-align: center;
+    width: 420px;
+    border-radius: 8px;
+}
+
+.form-head{
+    padding: 10px 16px;
+}
+
+.fh1{
+    width: 400px;
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.fh2{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #606770;
+}
+form{
+    border-top: 1px solid #DADDE1;
+    padding: 16px;
+}
+
+.fnamelname{
+    width: 399px;
+}
+.fname{
+    margin-right: 8px;
+}
+.fname, .lname{
+    margin-bottom: 10px;
+    padding: 12px;
+    line-height: 16px;
+    font-size: 15px;
+    border: 1px solid #CCD0D5;
+    border-radius: 5px;
+}
+
+.dob h4{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.dob
